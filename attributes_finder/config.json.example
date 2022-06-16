@@ -1,0 +1,54 @@
+[
+	[
+		{
+		  "trait_type": "Background",
+		  "value": "Yellow"
+		},
+		{
+		  "trait_type": "Clothes",
+		  "value": "Grey Bow Tie"
+		},
+		{
+		  "trait_type": "Type",
+		  "value": "Human"
+		},
+		{
+		  "trait_type": "Headwear",
+		  "value": "BTC White Cap"
+		},
+		{
+		  "trait_type": "Eyes",
+		  "value": "all"
+		},
+		{
+		  "trait_type": "Moustache",
+		  "value": "Classic"
+		}
+	],
+	[
+		{
+		  "trait_type": "Background",
+		  "value": "all"
+		},
+		{
+		  "trait_type": "Clothes",
+		  "value": "Green Bow Tie"
+		},
+		{
+		  "trait_type": "Type",
+		  "value": "Human"
+		},
+		{
+		  "trait_type": "Headwear",
+		  "value": "White Hat"
+		},
+		{
+		  "trait_type": "Eyes",
+		  "value": "Small"
+		},
+		{
+		  "trait_type": "Moustache",
+		  "value": "White Moustache"
+		}
+	  ]
+]

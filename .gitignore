@@ -104,4 +104,10 @@ dist
 .tern-port
 
 # Change Metadata sript
-newMetadata/
+change_metadata/newMetadata/
+
+# Attributes Finder script
+attributes_finder/config.json
+
+# Metdata Single File sript
+
