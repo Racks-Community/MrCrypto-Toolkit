@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/racksmafia/MrCrypto-Toolkit/issues"
   },
-  "homepage": "https://github.com/racksmafia/MrCrypto-Toolkit#readme"
+  "homepage": "https://github.com/racksmafia/MrCrypto-Toolkit#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.9"
+  }
 }

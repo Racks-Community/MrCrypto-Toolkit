@@ -1,4 +1,4 @@
-const _metadata = require("./_metadata.json")
+const _metadata = require("../_metadata.json")
 const config = require("./config.json")
 const ids = []
 
