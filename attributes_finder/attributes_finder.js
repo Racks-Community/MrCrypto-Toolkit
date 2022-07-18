@@ -1,5 +1,6 @@
 const _metadata = require("../_metadata.json")
 const config = require("./config.json")
+const fs = require("fs");
 const ids = []
 
 const isSuitable = (cfg_elm, specimen) => {
@@ -19,9 +20,15 @@ const scan = (cfg_elm) => {
 
 const main = () => {
 	console.log(config)
+	fs.open("result.json", 'w+', function (err, file) {
+		if (err)
+			throw err;
+		console.log('File is opened in write mode');
+	});
 	config.forEach((cfg_elm) => {
 		scan(cfg_elm)
 	})
+	fs.writeFileSync("result.json", JSON.stringify(ids));
 	console.log(ids)
 }
 

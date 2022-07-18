@@ -31,7 +31,7 @@ const main = async () => {
 		console.log(`${+i + 1}/${targets.length}`);
 	}
 	wallets = [...new Set(wallets)];
-	fs.writeFileSync("result.json", JSON.stringify(wallets, null, 2));
+	fs.writeFileSync("result.json", JSON.stringify(wallets));
 }
 
 main();
